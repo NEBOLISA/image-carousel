@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(1, 11, 20);
+}
+.top-section{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 10px;
+}
+.top-section img{
+    width:450px;
+    height: 300px;
+}
+.bottom-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;  
+}
+.bottom-section img{
+    width: 200px;
+    height: 110px;
+    border-radius: 12px;
+    transition: 0.3s;
+
+}
+.bottom-section img:hover{
+    border: 2px solid white;
+    width: 225px;
+    height: 125px;
+}
